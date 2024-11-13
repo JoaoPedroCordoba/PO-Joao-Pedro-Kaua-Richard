@@ -1,27 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Orlando | Sistemas para Internet</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Projeto Orientado</h1>
+    <div id="particles-js"></div> <!-- stats - count particles -->
+    <main>
+        <header>
+            <h1>Projeto Orientado</h1>
+            <nav>
+                <p><a href="Tela-Inicio.html">home</a></p> 
+                <p><a href="Tela-Joao.html">João Pedro Cordoba</a></p> 
+                <p><a href="Tela-Kaua.html">Kauã Richard</a></p>
+                <p><a href="TelaTabelas.html">Tabelas de curiosidades</a></p>
+                <p><a href="Links.html">Sites Favoritos</a></p>
+            </nav>
+        </header>
+        <section class="apresentacao-alunos">
+            <h2>Alunos do projeto</h2>
+            <p>Clique sobre a imagem para saber mais sobre o estudante.</p>
 
-    <p><a href="Tela-Inicio.html">home</a> | <a href="Tela-Joao.html">João Pedro Cordoba</a> | <a href="Tela-Kaua.html">Kauã Richard</a> | <a href="TelaTabelas.html">Tabelas de curiosidades</a> | <a href="Links.html">Sites Favoritos</a></p>
-
-    <h2>Alunos do projeto</h2>
-    <p>Clique sobre a imagem para saber mais sobre o estudante.</p>
-
-    <h3>João Pedro Cordoba</h3>
-    <a href="Tela-Joao.html">
-        <img src="assets/JoaoPerfil.jpeg" alt="">
-    </a>
-
-    <h3>Kauã Richard Azevedo Lira</h3>
-    <a href="Tela-Kaua.html">
-        <img src="assets/kauaPerfil.jpeg" alt="">
-    </a>
-    
+            <section class="alunos">
+                <figure class="aluno">
+                    <h3>João Pedro Cordoba</h3>
+                    <a href="Tela-Joao.html">
+                        <img src="assets/JoaoPerfil.jpeg" alt="">
+                    </a>
+                </figure>
+            
+                <figure class="aluno">
+                    <h3>Kauã Richard Azevedo</h3>
+                    <a href="Tela-Kaua.html">
+                        <img src="assets/kauaPerfil.jpeg" alt="">
+                    </a>
+                </figure>
+            </section>
+        </section>
+    </main>
+    <!-- particles.js container -->
+<div class="count-particles"> <span class="js-count-particles"></span></div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
