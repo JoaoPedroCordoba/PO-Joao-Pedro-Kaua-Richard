@@ -38,3 +38,30 @@ nav p:hover{
     justify-content: center;
     align-items: center;
 }  
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3rem;
+
+    margin-bottom: 100px;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links img{
+    width: 150px;
+}
+
+.links img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
