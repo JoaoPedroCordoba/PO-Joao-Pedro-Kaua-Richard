@@ -1,3 +1,69 @@
+/* Lista de Propriedades CSS pesquisadas:
+1)Displayflex: O displayflex funciona de uma maneira diferente dos outros displays. Quando colocamos essa propriedade em um elemento, esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container com propriedades novas. Essas propriedades devem ser usadas no elemento que é um flex container.
+Por padrão, quando aplicamos display: flex para um elemento, todos os filhos ficam um do lado do outro como se estivessem sob o efeito de display: inline.
+
+2)KeyFrame: Os @keyframes são como o roteiro de uma animação em CSS. Eles permitem criar sequências de animação, especificando como um elemento deve se comportar em diferentes estágios da animação. Para utilizá-los, você define os estágios-chave da animação e descreve as mudanças de estilo que devem ocorrer em cada estágio.
+
+3)Position Relative: é usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele. Ao aplicarmos essa propriedade em um elemento, ele não muda de posição, pois já vai estar posicionado em sua posição de referência.
+
+4) z-index: O atributo z-index lhe permite ajustar a ordem de sobreposição dos objetos ao renderizar o conteúdo.
+
+5) Border-radius: Permite atribuir aos elementos bordas arredondadas.
+
+Propriedades CSS usadas
+1) flex-direction:column - permite alterar a direção na qual os elementos flex serão exibidos ao longo do eixo principal.
+
+2) align-itens:center - alinha os elementos no centro do eixo vertical
+
+3) flex-direction: row - A propriedade flex-direction permite alterar a direção na qual os elementos flex serão exibidos ao longo do eixo principal. Definindo a propriedade flex-direction como row teremos os elementos dispostos em uma linha
+
+4)justify-content: space-between - Define o alinhamento dos itens ao longo do eixo principal . space-between: os itens são distribuídos igualmente no espaço disponível.
+
+5) all: unset - Ela estabelece que valor todas as outras propriedades de um elemento devem ter o valor inicial ou herdado de acordo com o que a propriedade foi especificada 
+
+6) transition - é a melhor maneira de configurar uma transição, assim evitamos parâmetros fora de sintonia, colocando um tempo determinado para a transição acontecer
+
+7) :hover - O :hover possibilita um elemento ter o seu estilo alterado através da ação do usuário, quando o próprio passa o cursor do mouse sobre o elemento.
+
+8) cursor: pointer - deixa o cursor do seu computador no estilo que você deseja
+
+9) opacity: - controla a opacidade do elemento
+
+10) transform: sacale -  permite que elementos renderizados em css sejam transformados em 2D ou 3D através de comandos específicos.
+
+11)display: block; — Torna o elemento um bloco, ocupando toda a largura disponível e iniciando em uma nova linha.
+
+12)vertical-align: bottom; — Sem efeito em elementos de bloco; usado para alinhar elementos inline ou inline-block na parte inferior.
+
+13)position: absolute; — Retira o elemento do fluxo normal da página e o posiciona em relação ao seu contêiner pai mais próximo que tenha position definido, ou ao documento, se nenhum for encontrado.
+
+14)background-image: url(""); — Define uma imagem de fundo para o elemento usando a URL fornecida (substitua "" por um caminho válido).
+
+15)background-repeat: no-repeat; — Faz com que a imagem de fundo apareça apenas uma vez, sem repetição.
+
+16)background-size: cover; — Ajusta a imagem de fundo para cobrir todo o elemento, mantendo sua proporção, podendo cortar partes da imagem para preencher completamente o contêiner.
+
+17)background-position: 50% 50%; — Centraliza a imagem de fundo horizontal e verticalmente dentro do elemento.
+
+18)text-align: left; — Alinha o texto à esquerda dentro do elemento.
+
+19)text-indent: 4px; — Adiciona um recuo de 4px na primeira linha de texto do elemento.
+
+20)line-height: 14px; — Define a altura das linhas de texto, proporcionando um espaçamento vertical de 14px entre as linhas.
+
+21)font-weight: bold; — Define o texto como negrito, aumentando sua espessura para destacá-lo.
+
+22)-webkit-user-select: none; — Impede que o usuário selecione o texto do elemento em navegadores baseados em WebKit (Chrome, Safari).
+
+23)overflow: hidden; — Oculta qualquer conteúdo que ultrapasse os limites do elemento, cortando o conteúdo excedente.
+
+
+
+*/
+
+
+
+
 body{
     margin: 0%;
     padding: 0%;
@@ -16,7 +82,7 @@ border-radius: 3%;
 
 header{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
